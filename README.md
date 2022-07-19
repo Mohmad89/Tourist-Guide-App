@@ -4,7 +4,9 @@ The tourist guide application provides information and pictures about the ancien
 It also provides archaeological sites on the map, and through the application, the automatic reading feature can be turned on for a better and easier user experience
 The target audience for the tour guide application can be generally tourists or non-Jordanians. With just a few clicks on the app, you can see and read the correct information about Jordanian archaeological sites.
 
+
 ## App Features
+
 
 1. The user can create account then login to the Tourist Guide App.
 2. The user may be Tourist or Guide.
@@ -13,6 +15,7 @@ The target audience for the tour guide application can be generally tourists or 
 5. Use Google Map to direct to any Jordanian archaeological sites.
 6. The Tourist user can request the help from any Guide found in The App.
 7. Any user can see the weather condition from the App.
+
 
 ## Screenshots
 
