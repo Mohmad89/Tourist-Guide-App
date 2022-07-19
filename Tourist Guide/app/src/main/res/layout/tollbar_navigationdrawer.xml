@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@color/purple_500">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:onClick="ClickBack"
+
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="Tourist Guide"
+        android:fontFamily="@font/hinamincho_regular"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_baseline_menu_24"
+        android:onClick="ClickMenu"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
