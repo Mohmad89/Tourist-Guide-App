@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer_layout">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        layout="@layout/tollbar_navigationdrawer"
+        android:id="@+id/include"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/include"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        >
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:layout_gravity="top"
+           android:id="@+id/recyclerView_mainActivity"/>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+        <include
+            layout="@layout/nav_drawer"/>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
