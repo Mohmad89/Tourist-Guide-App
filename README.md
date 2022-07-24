@@ -28,4 +28,3 @@ The target audience for the tour guide application can be generally tourists or 
 | ![](screenshots/Guide_Rejestration2.png)  |
 
 
-___
