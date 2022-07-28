@@ -14,7 +14,7 @@ The target audience for the tour guide application can be generally tourists or 
 4. The user will find all Jordanian archaeological sites and correct information about it.
 5. Use Google Map to direct the user for any Jordanian archaeological sites.
 6. The Tourist user can request the help from any Guide found in The App.
-7. Weather condition for any location the.
+7. Weather condition for any location the .
 
 
 ## Screenshots
